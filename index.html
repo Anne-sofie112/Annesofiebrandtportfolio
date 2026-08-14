@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anne-Sofie Brandt — Multimediedesign Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-nav" id="siteNav">
+      <div class="wrap nav-inner">
+        <a href="#top" class="logo">Anne-Sofie Brandt</a>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="projects.html">Projekter</a></li>
+            <li><a href="about.html">Om mig</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Åbn menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-text">
+            <h1>Anne-Sofie<br />Brandt</h1>
+            <p class="hero-sub">Multimediedesign<br />portofolio 2026</p>
+            <p class="hero-desc">
+              Jeg designer digitale oplevelser med fokus på æstetik og funktion
+            </p>
+            <div class="hero-cta">
+              <a href="#projekter" class="btn-primary">Se mine projekter</a>
+              <a href="about.html" class="btn-link">Læs mere om mig</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <img src="img/DSC02649 1.png" alt="Portræt af Anne-Sofie Brandt" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projekter">
+        <div class="wrap">
+          <h2 class="section-title">Projekter</h2>
+
+          <div class="carousel">
+            <button
+              class="carousel-arrow prev"
+              id="prevBtn"
+              aria-label="Forrige projekt"
+            >
+              ←
+            </button>
+
+            <article class="project-card" id="projectCard">
+              <div class="project-info">
+                <div class="num" id="projNum">01</div>
+                <h3 id="projTitle">Lumina<br />Audio</h3>
+                <div class="project-tag" id="projTag">Fiktiv webshop</div>
+                <p class="project-desc" id="projDesc">
+                  Et redesign af en fiktiv webshop, hvor jeg har arbejdet med
+                  visuelt hierarki, interaktion og responsivt design.
+                </p>
+                <a href="lumina-audio.html" class="project-link" id="projLink"
+                  >Se projektet <span>→</span></a
+                >
+              </div>
+              <div class="project-visual">
+                <div class="laptop-frame">
+                  <img
+                    id="projImg"
+                    src="img/laptop.png"
+                    alt="Skærmbillede af Lumina Audio webshop"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <button
+              class="carousel-arrow next"
+              id="nextBtn"
+              aria-label="Næste projekt"
+            >
+              →
+            </button>
+          </div>
+
+          <div class="dots" id="dots"></div>
+        </div>
+
+        <div class="tools-bar">
+          <div class="tools-track" id="toolsTrack"></div>
+        </div>
+      </section>
+
+      <section class="about" id="om-mig">
+        <div class="wrap about-inner">
+          <p>
+            Jeg er en multimediedesigner med interesse for UX/UI, webdesign,
+            visuel kommunikation og kreative digitale løsninger.
+          </p>
+          <a href="about.html" class="btn-link">Læs mere om mig</a>
+        </div>
+      </section>
+
+      <section class="contact" id="kontakt">
+        <div class="wrap">
+          <h2>Lad os arbejde sammen</h2>
+          <p>
+            Har du et projekt i tankerne? Skriv til mig, så tager vi en snak.
+          </p>
+          <a href="mailto:Brandtannesofie@gmail.com" class="btn-primary"
+            >Send en mail</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        &copy; 2026 Anne-Sofie Brandt. Alle rettigheder forbeholdes.
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
