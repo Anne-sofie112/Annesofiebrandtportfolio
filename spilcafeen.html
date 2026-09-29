@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spilcaféen — Projekt | Anne-Sofie Brandt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-nav" id="siteNav">
+      <div class="wrap nav-inner">
+        <a href="index.html" class="logo">Anne-Sofie Brandt</a>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="projects.html">Projekter</a></li>
+            <li><a href="about.html">Om mig</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Åbn menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="back-row wrap">
+        <a href="projects.html" class="back-link">← Alle projekter</a>
+      </div>
+
+      <section class="proj-hero">
+        <div class="wrap">
+          <div class="proj-num">04</div>
+          <h1>Spilcaféen</h1>
+          <div class="proj-tag">Optimering af webapp · Eksamen</div>
+          <p class="proj-intro">
+            Et eksamensprojekt, hvor jeg optimerede Spilcaféens spilgalleri –
+            en webapp, hvor gæsterne vælger deres café og kan søge og filtrere
+            i de brætspil, der findes på netop den lokation.
+          </p>
+
+          <div class="proj-meta">
+            <div class="proj-meta-item">
+              <div class="label">Rolle</div>
+              <div class="value">UX & frontend-udvikling</div>
+            </div>
+            <div class="proj-meta-item">
+              <div class="label">Værktøjer</div>
+              <div class="value">HTML, CSS, JavaScript, GitHub Pages</div>
+            </div>
+            <div class="proj-meta-item">
+              <div class="label">Type</div>
+              <div class="value">Eksamensprojekt / optimering</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proj-visual">
+        <div class="wrap">
+          <div class="laptop-frame site-frame">
+            <iframe
+              src="https://anne-sofie112.github.io/optimering-spillecafe-eksamen-26/"
+              title="Spilcaféen – live version af projektet"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="proj-section alt">
+        <div class="wrap proj-section-grid">
+          <h2>Udfordringen</h2>
+          <div class="proj-section-body">
+            <p>
+              Spilcaféen har fire caféer. Vestergade, Fredensgade, Aalborg og
+              Kolding. med hver deres udvalg af spil. Gæsterne skulle hurtigt
+              kunne finde ud af, hvilke spil der findes på deres café, og finde
+              det rigtige spil til selskabet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="proj-section">
+        <div class="wrap proj-section-grid">
+          <h2>Processen</h2>
+          <div class="proj-section-body">
+            <p>
+              Jeg arbejdede med at gøre løsningen mere overskuelig og hurtigere
+              at bruge. Både i forhold til struktur, brugervenlighed og
+              performance.
+            </p>
+            <ul class="proj-list">
+              <li>Forside, hvor man starter med at vælge sin café</li>
+              <li>Spilgalleri, der viser spillene for den valgte café</li>
+              <li>Søgning samt filtrering på sværhedsgrad, alder og genre</li>
+              <li>Optimerede billeder i WebP og lazy loading</li>
+              <li>Tilgængelighed med labels, alt-tekster og aria-attributter</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="proj-section alt">
+        <div class="wrap proj-section-grid">
+          <h2>Resultatet</h2>
+          <div class="proj-section-body">
+            <p>
+              Resultatet blev en enkel og hurtig webapp, hvor gæsten med få
+              klik kommer fra valg af café til et filtreret overblik over
+              spillene. Projektet kan ses live herunder.
+            </p>
+            <p>
+              <a
+                href="https://anne-sofie112.github.io/optimering-spillecafe-eksamen-26/"
+                class="btn-primary"
+                target="_blank"
+                rel="noopener"
+                >Se projektet live</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="next-project">
+        <div class="wrap">
+          <a href="lumina-audio.html" class="label">Næste projekt</a>
+          <h2>Se flere af mine projekter</h2>
+          <a href="projects.html" class="btn-primary">Tilbage til projekter</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        &copy; 2026 Anne-Sofie Brandt. Alle rettigheder forbeholdes.
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
